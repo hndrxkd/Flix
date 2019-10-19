@@ -17,7 +17,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-<img src="https://imgur.com/5OV5SQy" width=250><br>
+<img src=https://imgur.com/5OV5SQy width=250><br>
 
 ### Notes
 I had some issues with CocoaPods and AlamoFire and was forced to install using Carthage which is a much more manual process. I was able to get the table view to resize to different screensizes and orientation but had trouble getting it to extend the synopsis width to fill bigger screens or different orientations for phones, will try to correct in part 2.  
