@@ -29,13 +29,7 @@ class DetailsViewController: UIViewController {
         backdropView.af_setImage(withURL: fullBackDropURL!)
         
       
-        if (movie["vote_average"] as? Int != nil) {
-        let rating = movie["vote_average"] as! String
-        ratingLabel.text = "Viewer ratings: " + rating
-        }
-        
-        //TO-DO : Add rating system to ratingLabel
-        
+       
         
     }
     

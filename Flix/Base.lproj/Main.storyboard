@@ -168,13 +168,6 @@
                                 <rect key="frame" x="322" y="606" width="19" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ua-Nb-l3I">
-                                <rect key="frame" x="275" y="191" width="84" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hUW-Zu-0wA"/>
@@ -183,7 +176,6 @@
                     <connections>
                         <outlet property="backdropView" destination="ni8-q1-Qs6" id="vH4-9I-vnz"/>
                         <outlet property="posterView" destination="181-Oj-OJL" id="HDO-cM-hCO"/>
-                        <outlet property="ratingLabel" destination="1ua-Nb-l3I" id="Y4y-Bv-8hE"/>
                         <outlet property="synopsisLabel" destination="W9c-ni-K9V" id="eNb-N5-GTZ"/>
                         <outlet property="titleLabel" destination="TmC-0q-OyQ" id="TMS-jP-DiU"/>
                     </connections>
