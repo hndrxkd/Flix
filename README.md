@@ -12,7 +12,7 @@
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
-<img src="https://i.imgur.com/hoUnD21.gifv" width=250><br>
+<img src="https://i.imgur.com/Fk3bdB9.gifv" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
