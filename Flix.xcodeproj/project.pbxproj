@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A17248F235AA1240043759C /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A17248D235AA1240043759C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A172490235AA1240043759C /* AlamofireImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A17248E235AA1240043759C /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A391999235A988700700F72 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A391998235A988700700F72 /* AlamofireImage.framework */; };
+		6A39199B235A988900700F72 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A39199A235A988900700F72 /* Alamofire.framework */; };
 		6A69A600235A050C0027A661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69A5FF235A050C0027A661 /* AppDelegate.swift */; };
-		6A69A602235A050C0027A661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69A601235A050C0027A661 /* ViewController.swift */; };
 		6A69A605235A050C0027A661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A69A603235A050C0027A661 /* Main.storyboard */; };
 		6A69A607235A050D0027A661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A69A606235A050D0027A661 /* Assets.xcassets */; };
 		6A69A60A235A050D0027A661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A69A608235A050D0027A661 /* LaunchScreen.storyboard */; };
 		6A69A615235A050D0027A661 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69A614235A050D0027A661 /* FlixTests.swift */; };
 		6A69A620235A050D0027A661 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69A61F235A050D0027A661 /* FlixUITests.swift */; };
+		6A69A62E235A0EC20027A661 /* FlixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69A62D235A0EC20027A661 /* FlixViewController.swift */; };
+		6A69A636235A55DC0027A661 /* movieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A69A635235A55DC0027A661 /* movieCell.swift */; };
+		6A8658CF23633B2900FDA5B9 /* movieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8658CE23633B2900FDA5B9 /* movieGridViewController.swift */; };
+		6A8658D32363464000FDA5B9 /* movieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8658D22363464000FDA5B9 /* movieGridCell.swift */; };
+		6A8DCFD7235E005100BD4689 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8DCFD6235E005100BD4689 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +41,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6A17248A235A9F990043759C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6A17248F235AA1240043759C /* Alamofire.framework in CopyFiles */,
+				6A172490235AA1240043759C /* AlamofireImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6A17248B235AA05F0043759C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6A17248D235AA1240043759C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6A17248E235AA1240043759C /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		6A391998235A988700700F72 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		6A39199A235A988900700F72 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		6A69A5FC235A050C0027A661 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A69A5FF235A050C0027A661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A69A601235A050C0027A661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A69A604235A050C0027A661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A69A606235A050D0027A661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A69A609235A050D0027A661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +73,11 @@
 		6A69A61B235A050D0027A661 /* FlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A69A61F235A050D0027A661 /* FlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixUITests.swift; sourceTree = "<group>"; };
 		6A69A621235A050D0027A661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A69A62D235A0EC20027A661 /* FlixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixViewController.swift; sourceTree = "<group>"; };
+		6A69A635235A55DC0027A661 /* movieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieCell.swift; sourceTree = "<group>"; };
+		6A8658CE23633B2900FDA5B9 /* movieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieGridViewController.swift; sourceTree = "<group>"; };
+		6A8658D22363464000FDA5B9 /* movieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieGridCell.swift; sourceTree = "<group>"; };
+		6A8DCFD6235E005100BD4689 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A391999235A988700700F72 /* AlamofireImage.framework in Frameworks */,
+				6A39199B235A988900700F72 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +107,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A391997235A988700700F72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A39199A235A988900700F72 /* Alamofire.framework */,
+				6A391998235A988700700F72 /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A69A5F3235A050C0027A661 = {
 			isa = PBXGroup;
 			children = (
+				6A17248B235AA05F0043759C /* Alamofire.framework */,
+				6A17248D235AA1240043759C /* Alamofire.framework */,
+				6A17248E235AA1240043759C /* AlamofireImage.framework */,
 				6A69A5FE235A050C0027A661 /* Flix */,
 				6A69A613235A050D0027A661 /* FlixTests */,
 				6A69A61E235A050D0027A661 /* FlixUITests */,
 				6A69A5FD235A050C0027A661 /* Products */,
+				6A391997235A988700700F72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +144,15 @@
 			isa = PBXGroup;
 			children = (
 				6A69A5FF235A050C0027A661 /* AppDelegate.swift */,
-				6A69A601235A050C0027A661 /* ViewController.swift */,
 				6A69A603235A050C0027A661 /* Main.storyboard */,
 				6A69A606235A050D0027A661 /* Assets.xcassets */,
 				6A69A608235A050D0027A661 /* LaunchScreen.storyboard */,
 				6A69A60B235A050D0027A661 /* Info.plist */,
+				6A69A62D235A0EC20027A661 /* FlixViewController.swift */,
+				6A69A635235A55DC0027A661 /* movieCell.swift */,
+				6A8DCFD6235E005100BD4689 /* DetailsViewController.swift */,
+				6A8658CE23633B2900FDA5B9 /* movieGridViewController.swift */,
+				6A8658D22363464000FDA5B9 /* movieGridCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -135,6 +185,8 @@
 				6A69A5F8235A050C0027A661 /* Sources */,
 				6A69A5F9235A050C0027A661 /* Frameworks */,
 				6A69A5FA235A050C0027A661 /* Resources */,
+				6A39199C235A98AF00700F72 /* ShellScript */,
+				6A17248A235A9F990043759C /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -251,13 +303,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A39199C235A98AF00700F72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6A69A5F8235A050C0027A661 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A69A602235A050C0027A661 /* ViewController.swift in Sources */,
+				6A8658D32363464000FDA5B9 /* movieGridCell.swift in Sources */,
+				6A69A636235A55DC0027A661 /* movieCell.swift in Sources */,
 				6A69A600235A050C0027A661 /* AppDelegate.swift in Sources */,
+				6A8658CF23633B2900FDA5B9 /* movieGridViewController.swift in Sources */,
+				6A69A62E235A0EC20027A661 /* FlixViewController.swift in Sources */,
+				6A8DCFD7235E005100BD4689 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +511,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Flix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +534,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Flix/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
